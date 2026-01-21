@@ -183,23 +183,23 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-6">
               <img
-               src="/Company Logo.png"
+               src="/CompanyLogo.png"
                alt="Ishaan Global "
                className="w-12 h-12 object-contain cursor-pointer"
                 />
               <div>
-  <h3 className="text-xl font-bold text-[#FF6600]">Ishaan Global</h3>
- <p className="text-[9px] text-gray-400 uppercase tracking-widest">
-  Impact Through Talent
-</p>
-</div>
+             <h3 className="text-xl font-bold text-[#FF6600]">Ishaan Global</h3>
+              <p className="text-[9px] text-gray-400 uppercase tracking-widest">
+             Impact Through Talent
+             </p>
+           </div>
             </div>
 
             <p className="text-gray-400 mb-6 leading-relaxed">
               Global workforce excellence since 2019. Trusted by 25+ organizations across 5+ States India for transformative talent solutions.
             </p>
 
-            <div className="flex space-x-3">
+            {/* <div className="flex space-x-3">
               <a
                 href="#"
                 className="w-10 h-10 bg-white/10 hover:bg-[#FF6600] rounded-lg flex items-center justify-center transition-all"
@@ -224,7 +224,47 @@ const Footer = () => {
               >
                 <Instagram className="w-5 h-5" />
               </a>
-            </div>
+            </div> */}
+           
+                <div className="flex space-x-3">
+  <a
+    href="https://in.linkedin.com/company/ishaanglobal"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 bg-white/10 hover:bg-[#FF6600] rounded-lg flex items-center justify-center transition-all"
+  >
+    <Facebook className="w-5 h-5" />
+  </a>
+
+  <a
+    href="https://in.linkedin.com/company/ishaanglobal"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 bg-white/10 hover:bg-[#FF6600] rounded-lg flex items-center justify-center transition-all"
+  >
+    <Twitter className="w-5 h-5" />
+  </a>
+
+  <a
+    href="https://in.linkedin.com/company/ishaanglobal"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 bg-white/10 hover:bg-[#FF6600] rounded-lg flex items-center justify-center transition-all"
+  >
+    <Linkedin className="w-5 h-5" />
+  </a>
+
+  <a
+    href="https://in.linkedin.com/company/ishaanglobal"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 bg-white/10 hover:bg-[#FF6600] rounded-lg flex items-center justify-center transition-all"
+  >
+    <Instagram className="w-5 h-5" />
+  </a>
+</div>
+
+
           </div>
 
           {/* Quick Links */}

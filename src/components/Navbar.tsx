@@ -189,7 +189,7 @@ const Navbar = () => {
   onClick={() => scrollToSection("home")}
 >
   <img
-    src="/Company Logo.png"
+    src="/CompanyLogo.png"
     alt="Ishaan Global Logo"
     className="w-12 h-12 object-contain cursor-pointer"
   />
